@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-content: space-between;
     gap: 16px;
+    margin: 92px 0 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -12,15 +13,16 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
         gap: 14px;
+        margin: 92px 48px 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
-        padding: 0 24px;
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
         gap: 16px;
+        margin: 88px 24px 0;
     }
 }
 
@@ -28,13 +30,14 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(283px, 1fr));
+        margin: 64px 16px 0;
     }
 }
 
 @media screen and (max-width: 424px) {
     .photo-grid {
-        padding: 0 16px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+        gap: 12px;
     }
 }

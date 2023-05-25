@@ -1,13 +1,15 @@
 .cover {
-    background-image: url(../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    max-width: 1184px;
-    min-height: 740px;
-    transition: opacity 0.4s ease;
+    margin: 92px auto 0;
 }
 
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin: 90px 0 0;
+    }
+}
 
-.cover:hover {
-    background-color: 2A2C2F;
-    opacity: 0.8;
+@media screen and (max-width: 767px) {
+    .cover {
+        margin: 66px 0 0;
+    }
 }
