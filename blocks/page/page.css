@@ -2,11 +2,13 @@
   max-width: 1280px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', Arial, sans-serif;
+  /* выше отцентрировали весь контент */
+  font-family: 'Inter', 'Arial', sans-serif;
   box-sizing: border-box;
   padding: 0 48px;
   background-color: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 
