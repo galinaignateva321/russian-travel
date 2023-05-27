@@ -1,7 +1,7 @@
 .photo-grid__gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 284px);
-    grid-template-rows: repeat(auto-fit, 213px);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     justify-content: space-between;
     align-content: space-between;
     gap: 16px;
