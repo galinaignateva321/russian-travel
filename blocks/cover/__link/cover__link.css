@@ -29,7 +29,7 @@
     opacity: 0.3;
 }
 
-.cover__link:hover {
+.cover__link:hover::after {
     opacity: 0.8;
 }
 
